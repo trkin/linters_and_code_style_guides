@@ -41,7 +41,7 @@ HERE_DOC
 
 TODO: https://github.com/Shopify/erb-lint
 
-# Text syntax on buttons and messages
+# General text syntax
 
 * labels on buttons, titles,...  should be upper case with no period: `This Job
 Is Paused`
