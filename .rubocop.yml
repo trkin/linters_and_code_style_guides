@@ -1,3 +1,4 @@
+# https://github.com/trkin/linters_and_code_style_guides/blob/main/.rubocop.yml
 require: standard
 
 inherit_gem:

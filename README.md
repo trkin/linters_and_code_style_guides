@@ -23,6 +23,7 @@ and it is installed with those commands:
 bundle add standard
 
 cat > .rubocop.yml <<HERE_DOC
+# https://github.com/trkin/linters_and_code_style_guides/blob/main/.rubocop.yml
 require: standard
 
 inherit_gem:
@@ -30,9 +31,10 @@ inherit_gem:
 HERE_DOC
 
 cat > .standard.yml <<HERE_DOC
+# https://github.com/trkin/linters_and_code_style_guides/blob/main/.standard.yml
 ignore:
   - "**/*":
-    # put comma after each line {a:1,}
+    # It's OK to put comma after each line {a:1,}
     - Style/TrailingCommaInHashLiteral
 HERE_DOC
 ```
