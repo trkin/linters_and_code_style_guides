@@ -36,8 +36,29 @@ ignore:
   - "**/*":
     # It's OK to put comma after each line {a:1,}
     - Style/TrailingCommaInHashLiteral
+    # It's OK to put comma after each argument a(a:1,)
+    - Style/TrailingCommaInArguments
 HERE_DOC
 ```
+
+Automatically fix
+
+```
+# stage current chages
+git add .
+
+standardrb --fix
+standardrb --fix-unsafely # if needed
+
+# see fixes
+git diff
+
+git add .
+git commit -am"standardrb --fix"
+```
+
+Configure your IDE to run standardrb
+<https://github.com/testdouble/standard/wiki>
 
 ## Erb lint
 

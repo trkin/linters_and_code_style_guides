@@ -1,5 +1,7 @@
 # https://github.com/trkin/linters_and_code_style_guides/blob/main/.standard.yml
 ignore:
   - "**/*":
-    # It's OK to put comma after each line {a:1,}
+    # It's OK to put comma after each key value pair in hash {a:1,}
     - Style/TrailingCommaInHashLiteral
+    # It's OK to put comma after each argument a(a:1,)
+    - Style/TrailingCommaInArguments
